@@ -1,39 +1,42 @@
-Bitcoin Core integration/staging tree
+Bitcoin Dollar Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
-
-https://bitcoincore.org
-
-What is Bitcoin?
+What is Bitcoin Dollar?
 ----------------
 
-Bitcoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Bitcoin Core is the name of open source
-software which enables the use of this currency.
+World's first artificial intelligence Bitcoin is a community-led project to create an experimental split
+of blockchain ledger to a new proof-of-work and signature algorithm. The purpose for doing this is
+to make Bitcoin mining decentralized again. Satoshi Nakamoto’s idealistic vision of “one CPU one
+vote” has been superseded by a reality where the manufacture and distribution of mining equipment
+has become dominated by a very small number of entities, some of whom have engaged in
+abusive practices against individual miners and the Bitcoin network as a whole. Bitcoin Dollar will
+provide an opportunity for countless new people around the world to participate in the mining
+process with widely-available consumer hardware that is manufactured and distributed by reputable
+mainstream corporations. A more decentralized, democratic mining infrastructure is more
+resilient and more in line with Satoshi’s original vision. Perhaps, if the Bitcoin Dollar experiment is
+judged by the community to be a success, it may one day help build consensus for a proof-of-work
+and signature split on Bitcoin itself. 
 
 For more information, as well as an immediately useable, binary version of
-the Bitcoin Core software, see https://bitcoin.org/en/download, or read the
-[original whitepaper](https://bitcoincore.org/bitcoin.pdf).
+the Bitcoin Dollar Core software, see https://bitcoindollar.io/, or read the
+[original whitepaper](https://goo.gl/sLjroR).
 
 License
 -------
 
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Bitcoin Dollar Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of Bitcoin Core.
+completely stable. [Tags](https://github.com/bitcoindollar/btd/tags) are created
+regularly to indicate new official, stable release versions of Bitcoin Dollar Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev)
+The developer [mailing list](https://lists.linuxfoundation.org/mailman/listinfo/bitcoindollar-dev)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
@@ -58,7 +61,7 @@ There are also [regression and integration tests](/test), written
 in Python, that are run automatically on the build server.
 These tests can be run (if the [test dependencies](/test) are installed) with: `test/functional/test_runner.py`
 
-The Travis CI system makes sure that every pull request is built for Windows, Linux, and OS X, and that unit/sanity tests are run automatically.
+The system makes sure that every pull request is built for Windows, Linux, and OS X, and that unit/sanity tests are run automatically.
 
 ### Manual Quality Assurance (QA) Testing
 
@@ -70,13 +73,11 @@ not straightforward.
 Translations
 ------------
 
-Changes to translations as well as new translations can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
 
 **Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
+pull would automatically overwrite them again.
 
-Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/bitcoin-translators).
+Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/bitcoindollar-translators).
